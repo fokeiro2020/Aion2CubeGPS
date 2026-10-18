@@ -1,0 +1,36 @@
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Windows build artifacts (deliver via GitHub Releases, not Git)
+build/
+dist/
+*.spec
+*.exe
+*.msi
+*.pdb
+
+# Local and private material: PCAP can contain chat, IPs and game activity
+*.pcap
+*.pcapng
+*.dmp
+*.log
+*.etl
+*.trace
+*.env
+.env.*
+
+# Downloaded source reviews / experiments
+upstream_sources/
+
+# Editor and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
